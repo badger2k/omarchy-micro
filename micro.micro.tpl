@@ -1,0 +1,56 @@
+# Omarchy dynamic micro colorscheme — generated from colors.toml on every theme change.
+# Background is left unset so the (already themed) terminal background shows through.
+
+color-link default "{{ foreground }}"
+color-link comment "italic {{ muted }}"
+
+color-link identifier "{{ blue }}"
+color-link constant "{{ yellow }}"
+color-link constant.string "{{ green }}"
+color-link constant.string.char "{{ cyan }}"
+color-link constant.number "{{ yellow }}"
+color-link constant.bool "{{ yellow }}"
+color-link constant.specialChar "{{ magenta }}"
+color-link statement "{{ magenta }}"
+color-link symbol "{{ cyan }}"
+color-link symbol.operator "{{ cyan }}"
+color-link symbol.brackets "{{ foreground }}"
+color-link symbol.tag "{{ blue }}"
+color-link preproc "{{ magenta }}"
+color-link type "{{ yellow }}"
+color-link type.keyword "{{ magenta }}"
+color-link special "{{ magenta }}"
+color-link underlined "underline {{ blue }}"
+color-link error "bold {{ red }}"
+color-link todo "bold {{ yellow }}"
+
+color-link hlsearch "{{ background }},{{ yellow }}"
+color-link selection "{{ selection_foreground }},{{ selection_background }}"
+color-link match-brace "{{ background }},{{ accent }}"
+
+color-link statusline "{{ background }},{{ foreground }}"
+color-link statusline.inactive "{{ background }},{{ muted }}"
+color-link tabbar "{{ muted }},{{ lighter_background }}"
+color-link tabbar.active "{{ foreground }},{{ background }}"
+color-link divider "{{ muted }}"
+color-link scrollbar "{{ muted }}"
+
+color-link line-number "{{ muted }}"
+color-link current-line-number "bold {{ foreground }}"
+color-link cursor-line "{{ lighter_background }}"
+color-link color-column "{{ lighter_background }}"
+color-link indent-char "{{ muted }}"
+color-link tab-error "{{ red }}"
+color-link trailingws "{{ red }}"
+color-link ignore "{{ muted }}"
+
+color-link gutter-error "{{ red }}"
+color-link gutter-warning "{{ yellow }}"
+color-link gutter-info "{{ blue }}"
+
+color-link diff-added "{{ green }}"
+color-link diff-modified "{{ yellow }}"
+color-link diff-deleted "{{ red }}"
+
+color-link message "{{ foreground }}"
+color-link error-message "bold {{ red }}"

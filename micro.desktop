@@ -1,0 +1,16 @@
+[Desktop Entry]
+
+Name=Micro
+GenericName=Text Editor
+Comment=Edit text files in a terminal
+
+Icon=micro
+Type=Application
+Categories=Utility;TextEditor;Development;
+Keywords=text;editor;syntax;terminal;
+
+TryExec=micro
+Exec=xdg-terminal-exec --app-id=TUI.tile -e micro %F
+StartupNotify=false
+Terminal=false
+MimeType=text/plain;text/english;text/markdown;text/x-log;text/x-makefile;text/x-chdr;text/x-csrc;text/x-c;text/x-c++;text/x-c++hdr;text/x-c++src;text/x-java;text/x-dsrc;text/x-pascal;text/x-perl;text/x-python;text/x-tex;text/x-tcl;text/x-sql;text/x-diff;text/x-shellscript;text/css;text/html;text/csv;application/x-shellscript;application/x-php;application/x-httpd-php3;application/x-httpd-php4;application/x-httpd-php5;application/xml;application/json;application/x-yaml;application/toml;
